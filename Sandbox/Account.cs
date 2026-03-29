@@ -2,39 +2,23 @@
 
 public class Account
 {
-    private Human holder;
-    private double availableAmount;
+
     
     public double GetCash(double amount)
     {
-        if (amount > availableAmount)
+        if (amount > AvailableAmount)
         {
-            amount = availableAmount;
+            amount = AvailableAmount;
         }
 
-        availableAmount = availableAmount - amount;
+        AvailableAmount = AvailableAmount - amount;
         
         return amount;
     }
 
+    public Human Holder { get; private set; }
 
-    public Human GetHolder()
-    {
-        return holder;
-    }
-
-    public void SetHolder(Human value)
-    {
-        holder = value;
-    }
-
-    public double GetAvailableAmount()
-    {
-        return availableAmount;
-    }
-
-    public void SetAvailableAmount(double value)
-    {
-        availableAmount = value;
-    }
+    public Double AvailableAmount { get; private set; }
+    
 }
+ 

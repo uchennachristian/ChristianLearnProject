@@ -8,9 +8,9 @@ public class Program
     /// <param name="args"></param>
     public static void Main(string[] args)
     {
-        Cat cat = new Cat("Napoleon", 5);
+        Person person = new Person("Christian", "Uchenna", "Male", new DateTime(1982, 3, 10));
 
-        cat.Drink("Milk");
-        Console.ReadLine();
+        Console.WriteLine(person.BirthdayDate);
+        Console.WriteLine(person.Age);
     }
 }
