@@ -1,6 +1,6 @@
 ﻿// Ctrl + Alt + Ins
 
-using SandboxConsole;
+using Catering;
 
 // new Restaurant() - constructor / ctor / конструктор
 

@@ -1,4 +1,4 @@
-﻿namespace SandboxConsole;
+﻿namespace Catering;
 
 public class Restaurant
 {

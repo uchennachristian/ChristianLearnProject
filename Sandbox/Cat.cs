@@ -1,4 +1,4 @@
-﻿namespace SandboxConsole;
+﻿namespace Sandbox;
 
 /// <summary>
 /// Cat.
@@ -9,17 +9,23 @@ public class Cat
     /// <summary>
     /// Cat's nickname.
     /// </summary>
-    public string name;
+    public string Name { get; set; }
 
     /// <summary>
     /// Cat's age.
     /// </summary>
-    public int age;
+    public int Age { get; set; }
 
     /// <summary>
     /// Cat's on diet.
     /// </summary>
-    public bool isOnDiet;
+    public bool IsOnDiet { get; set; }
+
+    public Cat(string name, int age)
+    {
+        Name = name;
+        Age = age;
+    }
 
     /// <summary>
     /// Make's cat jump.
@@ -45,7 +51,7 @@ public class Cat
     {
         DateTime now = DateTime.Now;
 
-        if (now.Hour >= 13 && now.Hour <= 18 || !isOnDiet)
+        if (now.Hour >= 13 && now.Hour <= 18 || !IsOnDiet)
         {
             Console.WriteLine("I'm eating " + dishName);
         }

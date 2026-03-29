@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxConsole", "SandboxConsole\SandboxConsole.csproj", "{D8A5766A-A94D-44C6-8C02-C3DD115CF01F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catering", "Catering\Catering.csproj", "{D8A5766A-A94D-44C6-8C02-C3DD115CF01F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{5EF16667-A81D-40DD-AE4F-8AB092E96CAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{5EF16667-A81D-40DD-AE4F-8AB092E96CAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
