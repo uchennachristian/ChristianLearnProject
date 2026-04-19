@@ -1,6 +1,6 @@
 ﻿namespace Sandbox;
 
-public class Person
+public class  Person
 {
 
     private string sex;

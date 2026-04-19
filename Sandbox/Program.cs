@@ -8,9 +8,12 @@ public class Program
     /// <param name="args"></param>
     public static void Main(string[] args)
     {
-        Person person = new Person("Christian", "Uchenna", "Male", new DateTime(1982, 3, 10));
+        CoffeeMachine coffeeMachine = new CoffeeMachine();
 
-        Console.WriteLine(person.BirthdayDate);
-        Console.WriteLine(person.Age);
+        coffeeMachine.MilkQuantity = 10;
+
+        Console.WriteLine("Good morning");
+        Console.WriteLine(coffeeMachine.MilkQuantity);
+        coffeeMachine.PrepareBeverage();
     }
 }

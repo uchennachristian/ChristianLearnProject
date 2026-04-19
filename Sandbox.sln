@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catering", "Catering\Cateri
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{5EF16667-A81D-40DD-AE4F-8AB092E96CAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop", "CoffeeShop\CoffeeShop.csproj", "{09F1EDCA-CEEA-42AD-A57C-1656F5B7773A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{5EF16667-A81D-40DD-AE4F-8AB092E96CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EF16667-A81D-40DD-AE4F-8AB092E96CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EF16667-A81D-40DD-AE4F-8AB092E96CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09F1EDCA-CEEA-42AD-A57C-1656F5B7773A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09F1EDCA-CEEA-42AD-A57C-1656F5B7773A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09F1EDCA-CEEA-42AD-A57C-1656F5B7773A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09F1EDCA-CEEA-42AD-A57C-1656F5B7773A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

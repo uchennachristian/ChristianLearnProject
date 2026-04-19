@@ -2,7 +2,6 @@
 
 public class Account
 {
-
     
     public double GetCash(double amount)
     {

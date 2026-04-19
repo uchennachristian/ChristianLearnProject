@@ -3,35 +3,36 @@
 public class CoffeeMachine
 {
     
-    public Coffee PrepareCoffee(int milkQuantity, int coffeeQuantity)
+    /// <summary>
+    /// 0x0bb13412
+    /// </summary>
+    /// <remarks>read</remarks>
+    /// <remarks>write</remarks>
+    private int _milkQuantity;
+
+    public int MilkQuantity
     {
-        Console.WriteLine("Start to make coffee...");
-        Thread.Sleep(TimeSpan.FromSeconds(10));
-
-        Coffee resultCoffee = new Coffee("Capuchinno", milkQuantity + coffeeQuantity);
-
-        Console.WriteLine("Beverage prepared");
-
-        return resultCoffee;
+        // read
+        get
+        {
+            return _milkQuantity;
+        }
+        // write
+        set
+        {
+            if (value >= 0)
+            {
+                _milkQuantity = value;
+            }
+        }
     }
 
-    public void Clean()
+    public void PrepareBeverage()
     {
-        Console.WriteLine("Cleaning....");
-        Thread.Sleep(TimeSpan.FromSeconds(10));
-
-        bool isError = Random.Shared.Next() % 2 == 0;
-
-        if (isError)
-        {
-            Console.WriteLine("Coffee-machine has an error. We can't to continue cleaning. Cleaning process will be stop.");
-            
-            return;
-        }
-
-        Console.WriteLine("Continue cleaning.");
-        Thread.Sleep(TimeSpan.FromSeconds(10));
-        Console.WriteLine("Cleaning completed.");
+        WaterTank waterTank = new WaterTank();
+        
+        Console.WriteLine("Beverage preparing.");
+        waterTank.UseWater();
     }
     
 }
