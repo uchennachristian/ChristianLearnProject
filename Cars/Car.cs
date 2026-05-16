@@ -1,4 +1,4 @@
-﻿namespace CoffeeShop;
+﻿namespace Cars;
 
 public class Car
 {
@@ -29,6 +29,10 @@ public class Car
     public void Drive(string destination, DateTime departureTime)
     {
         Console.WriteLine("Now is " + departureTime + ". We are going to " + destination + ".");
+    }
+
+    protected void DoSomething()
+    {
     }
     
 }
