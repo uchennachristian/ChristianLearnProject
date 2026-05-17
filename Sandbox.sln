@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeShop", "CoffeeShop\Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cars", "Cars\Cars.csproj", "{1EE73519-C515-4723-8318-0243EE6962FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ships", "Ships\Ships.csproj", "{B30ED081-F57B-4CE9-8555-BD3D0BD7EB6F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{1EE73519-C515-4723-8318-0243EE6962FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE73519-C515-4723-8318-0243EE6962FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EE73519-C515-4723-8318-0243EE6962FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B30ED081-F57B-4CE9-8555-BD3D0BD7EB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B30ED081-F57B-4CE9-8555-BD3D0BD7EB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B30ED081-F57B-4CE9-8555-BD3D0BD7EB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B30ED081-F57B-4CE9-8555-BD3D0BD7EB6F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
