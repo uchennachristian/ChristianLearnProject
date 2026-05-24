@@ -2,10 +2,15 @@
 
 public static class Program
 {
-    public static void Main(string[] args)
+    public static void Main()
     {
-        MilitaryShip militaryShip = new MilitaryShip();
+        Submarine submarine = new Submarine();
+        SubmarineMaintenanceFactory submarineMaintenanceFactory = new SubmarineMaintenanceFactory();
         
-        militaryShip.Shoot();
+        submarineMaintenanceFactory.Maintain(submarine);
+
+        NuclearSubmarine nuclearSubmarine = new NuclearSubmarine();
+        
+        submarineMaintenanceFactory.Maintain(nuclearSubmarine);
     }
 }

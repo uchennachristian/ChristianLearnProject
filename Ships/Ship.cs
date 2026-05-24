@@ -5,4 +5,6 @@ public class Ship
     public string Name { get; set; }
     
     public string Number { get; set; }
+    
+    public int CarryPeople { get; set; }
 }
