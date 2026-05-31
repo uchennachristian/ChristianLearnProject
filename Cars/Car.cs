@@ -30,9 +30,5 @@ public class Car
     {
         Console.WriteLine("Now is " + departureTime + ". We are going to " + destination + ".");
     }
-
-    protected void DoSomething()
-    {
-    }
     
 }
